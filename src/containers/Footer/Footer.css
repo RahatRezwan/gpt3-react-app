@@ -9,6 +9,7 @@
 .gpt3__footer-heading {
     width: 100%;
     text-align: center;
+    padding: 4rem 6rem;
 }
 .gpt3__footer-heading h1 {
     font-family: var(--font-family);
@@ -103,7 +104,10 @@
     color: #ffffff;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
+    .gpt3__footer-heading {
+        padding: 4rem 0;
+    }
     .gpt3__footer-heading h1 {
         font-size: 44px;
         line-height: 50px;
